@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../src/mocks/ERC20Mintable.sol";
+import "./mocks/ERC20Mintable.sol";
 import "../src/Pair.sol";
 
 contract PairTest is Test {
